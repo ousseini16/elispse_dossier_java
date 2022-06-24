@@ -12,7 +12,7 @@ public class Student {
 	private String lastName;
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + "]";
+		return firstName+"  "+lastName + "(" +id+  ")";
 	}
 	public final String getFirstName() {
 		return firstName;
